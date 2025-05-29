@@ -1,0 +1,72 @@
+===========================
+PyCAT Ethical Hacking Tool
+===========================
+
+1. Setup & Requirements:
+------------------------
+- Make sure Python 3.7+ is installed.
+- Install required libraries:
+  pip install impacket rich
+
+2. Running PyCAT Server:
+------------------------
+- Run the main PyCAT script:
+  python pycat.py
+
+- This starts the server listening on port 9001, waiting for client connections.
+
+3. Connecting Clients:
+----------------------
+- Clients must run a Python client script that connects back to your server IP on port 9001.
+- You can create your own client or request a sample client script.
+
+4. Using the Main Menu:
+----------------------
+- After server starts, you'll see:
+
+  1. List clients
+  2. Select client and start shell
+  3. Pentesting tools
+  0. Exit
+
+- Press the number of your choice and Enter.
+
+5. Listing Clients:
+-------------------
+- Choose option 1 to see all connected clients (shown as IP:port).
+
+6. Remote Shell:
+----------------
+- Choose option 2.
+- Enter the client ID (IP:port) you want to control.
+- You can now type commands to run on the client.
+- Type 'exit' to quit the shell.
+
+7. Pentesting Tools:
+--------------------
+- Choose option 3.
+- Inside, choose:
+
+  1. SMB Null Session Check
+  0. Back to main menu
+
+- SMB Null Session Check lets you test a target IP for SMB shares accessible without credentials.
+
+8. Exiting:
+-----------
+- Choose option 0 at any menu to exit or go back.
+
+9. Important Notes:
+-------------------
+- Only test systems you have permission to.
+- SMB Null Session Check requires SMB port 445 open on the target.
+- Clients must be running and connected for remote shell to work.
+
+10. Sample Client:
+------------------
+- A minimal client script is included in the README or can be requested.
+
+---
+
+Enjoy using PyCAT! Always act ethically and legally.
+
