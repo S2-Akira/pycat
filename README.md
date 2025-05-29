@@ -1,8 +1,8 @@
-#PyCAT — Advanced Ethical Hacking CLI Tool
+pyCAT — Advanced Ethical Hacking CLI Tool
 
 PyCAT is a powerful, all-in-one Python-based CLI tool designed for ethical penetration testing and client management. It supports remote client connections, remote shell access, and includes pentesting tools like SMB Null Session vulnerability checks — all integrated into a sleek, interactive CLI interface.
 
-#Features
+Features
 
 Async TCP Server to manage multiple connected clients
 
